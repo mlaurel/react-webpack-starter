@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* + * {
+  margin-top: 0.25rem;
+}
+html {
+  display: grid;
+  place-items: center center;
+  height: 100vh;
+}
+body {
+  background-color: #efefef;
+  border: 2px solid #222;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+h1 {
+  color: white;
+  background-color: black;
+}
